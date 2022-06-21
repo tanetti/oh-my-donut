@@ -9,8 +9,7 @@
   padding-right: 25px;
 
   font-family: $secondary-font;
-  font-size: 18px;
-  line-height: 1.28;
+  @include font-size(18, 23);
 
   color: $white-txt-color;
   background-color: $accent-main-color;
@@ -35,8 +34,7 @@
     height: 45px;
     padding: 0 30px;
 
-    font-size: 24px;
-    line-height: 1.25;
+    @include font-size(24, 30);
 
     &--send {
       min-width: 182px;
