@@ -2,10 +2,10 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://tanetti.github.io/project-one",
+  "homepage": "https://tanetti.github.io/oh-my-donut",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /project-one/"
+    "build": "parcel build src/*.html --public-url /oh-my-donut/"
   },
   "repository": {
     "type": "git",
