@@ -1,16 +1,21 @@
 // Fonts
-$font-main: 'Montserrat', sans-serif;
-$font-secondary: 'Caveat Brush', cursive;
+$main-font: 'Montserrat', sans-serif;
+$secondary-font: 'Caveat Brush', cursive;
 
-// Text Colors
+// Text & Accents colors
 $main-txt-color: #2e2520;
-$secondary-txt-color: #ab816c;
+$white-txt-color: #fff;
+
 $placeholder-txt-color: rgba(171, 129, 108, 0.5);
 
-// Background Colors
+$accent-main-color: #ab816c;
+$accent-hover-color: #876655;
+$accent-active-color: #674d40;
+
+// Background colors
 $main-bg-color: #fffff9;
 $secondary-bg-color: #fef3e4;
 
 // Transition Props
-$transition-timing: 300ms;
+$transition-timing: 250ms;
 $transition-function: cubic-bezier(0.4, 0, 0.2, 1);
