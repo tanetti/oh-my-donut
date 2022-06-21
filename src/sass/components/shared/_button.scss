@@ -1,0 +1,45 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-width: 145px;
+  height: 40px;
+  padding-left: 25px;
+  padding-right: 25px;
+
+  font-family: $secondary-font;
+  font-size: 18px;
+  line-height: 1.28;
+
+  color: $white-txt-color;
+  background-color: $accent-main-color;
+  border-width: 0;
+  border-radius: 25px;
+
+  cursor: pointer;
+
+  transition: background-color $transition-timing $transition-function;
+
+  &:hover,
+  &:focus {
+    background-color: $accent-hover-color;
+  }
+
+  &:active {
+    background-color: $accent-active-color;
+  }
+
+  @media screen and (min-width: 1280px) {
+    min-width: 158px;
+    height: 45px;
+    padding: 0 30px;
+
+    font-size: 24px;
+    line-height: 1.25;
+
+    &--send {
+      min-width: 182px;
+    }
+  }
+}
