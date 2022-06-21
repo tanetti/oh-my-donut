@@ -1,5 +1,7 @@
-.header-subtitle {
+.header__subtitle {
   @extend %no-margin;
+
+  margin-bottom: 32px;
 
   font-weight: 500;
   @include font-size(16, 20);
