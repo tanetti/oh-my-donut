@@ -1,6 +1,6 @@
 .mobile-menu-button {
   position: absolute;
-  top: 16px;
+  top: 8px;
   right: 20px;
   z-index: 10;
 
@@ -20,7 +20,7 @@
   }
 
   @media screen and (min-width: 768px) {
-    top: 32px;
+    top: -4px;
     right: 32px;
   }
 

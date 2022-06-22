@@ -1,7 +1,8 @@
 (() => {
   const refs = {
     mobileMenuBtn: document.querySelector('[data-mobile-menu-button]'),
-    // mobileMenu: document.querySelector('[data-mobile-menu]'),
+    mobileMenuBackdrop: document.querySelector('[data-mobile-menu-backdrop]'),
+    mobileMenu: document.querySelector('[data-mobile-menu]'),
   };
 
   refs.mobileMenuBtn.addEventListener('click', () => {
@@ -10,7 +11,8 @@
     refs.mobileMenuBtn.setAttribute('aria-expanded', !expanded);
 
     refs.mobileMenuBtn.classList.toggle('is-open');
-    // refs.mobileMenu.classList.toggle('is-open');
+    refs.mobileMenu.classList.toggle('is-open');
+    refs.mobileMenuBackdrop.classList.toggle('is-open');
 
     document.body.classList.toggle('mobile-menu-is-open');
   });
