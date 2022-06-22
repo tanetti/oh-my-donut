@@ -1,0 +1,40 @@
+.navigation {
+  @media screen and (max-width: 1279.98px) {
+    text-align: center;
+  }
+}
+
+.navigation__list {
+  @extend %list;
+}
+
+.navigation__item:not(:last-child) {
+  @media screen and (max-width: 1279.98px) {
+    margin-bottom: 45px;
+  }
+}
+
+.navigation__link {
+  @extend %link-decor;
+
+  font-weight: 500;
+  @include font-size(24, 29);
+
+  @media screen and (min-width: 1280px) {
+    font-weight: 400;
+    @include font-size(18, 22);
+  }
+
+  color: inherit;
+
+  transition: color $transition-timing $transition-function;
+
+  &:hover,
+  &:focus {
+    color: $accent-hover-color;
+  }
+
+  &:active {
+    color: $accent-active-color;
+  }
+}
