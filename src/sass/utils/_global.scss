@@ -7,6 +7,13 @@ body {
   font-family: $main-font;
   color: $main-txt-color;
   background-color: $main-bg-color;
+
+  &.mobile-menu-is-open {
+    overflow: initial;
+    @media screen and (max-width: 767.98px) {
+      overflow: hidden;
+    }
+  }
 }
 
 .main-content {

@@ -7,8 +7,7 @@
 
   min-width: 145px;
   height: 40px;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding: 0 25px;
 
   font-family: $secondary-font;
   @include font-size(18, 23);
